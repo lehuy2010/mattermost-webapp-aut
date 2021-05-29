@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSV-TestCase1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5935585-e133-4f8a-bd12-4c75f07534bc</testCaseGuid>
+   <variable>
+      <defaultValue>'lehuy11011997'</defaultValue>
+      <description></description>
+      <id>c893bc64-9479-49a0-893d-5b4337e7a767</id>
+      <masked>false</masked>
+      <name>mattermost_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'yaoming20101'</defaultValue>
+      <description></description>
+      <id>52eb0ea1-3fee-4bd1-b70c-b6931260809e</id>
+      <masked>false</masked>
+      <name>mattermost_pwd</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CSV_TestSuite,Chrome 90.0.4430.212,,,2021-05-29 20:48:37,2021-05-29 20:51:15,2m - 38.434s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:48:37,2021-05-29 20:49:17,39.552s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:48:38,2021-05-29 20:48:40,2.091s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:48:40,2021-05-29 20:48:40,0.514s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:48:40,2021-05-29 20:48:43,2.677s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:48:43,2021-05-29 20:48:44,0.609s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-29 20:48:44,2021-05-29 20:48:44,0.500s,PASSED
+"verifyElementPresent(findTestObject(""Page_Town Square - test-data-1 Mattermost/span_test-data-1_status status-edit edit""), 0)",Chrome 90.0.4430.212,,,2021-05-29 20:48:44,2021-05-29 20:49:17,32.731s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:49:17,2021-05-29 20:49:54,36.716s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:49:17,2021-05-29 20:49:19,1.889s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:49:19,2021-05-29 20:49:19,0.497s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:49:19,2021-05-29 20:49:21,1.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:49:21,2021-05-29 20:49:22,0.557s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-29 20:49:22,2021-05-29 20:49:22,0.520s,PASSED
+"verifyElementPresent(findTestObject(""Page_Town Square - test-data-1 Mattermost/span_test-data-1_status status-edit edit""), 0)",Chrome 90.0.4430.212,,,2021-05-29 20:49:22,2021-05-29 20:49:54,31.462s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:49:54,2021-05-29 20:50:31,37.073s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:49:54,2021-05-29 20:49:56,1.853s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:49:56,2021-05-29 20:49:56,0.503s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:49:56,2021-05-29 20:49:58,2.205s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:49:58,2021-05-29 20:49:59,0.560s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-29 20:49:59,2021-05-29 20:49:59,0.519s,PASSED
+"verifyElementPresent(findTestObject(""Page_Town Square - test-data-1 Mattermost/span_test-data-1_status status-edit edit""), 0)",Chrome 90.0.4430.212,,,2021-05-29 20:49:59,2021-05-29 20:50:31,31.423s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:50:31,2021-05-29 20:51:08,37.134s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:50:31,2021-05-29 20:50:33,1.848s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:50:33,2021-05-29 20:50:33,0.437s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:50:33,2021-05-29 20:50:36,2.574s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:50:36,2021-05-29 20:50:36,0.523s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-29 20:50:36,2021-05-29 20:50:37,0.489s,PASSED
+"verifyElementPresent(findTestObject(""Page_Town Square - test-data-1 Mattermost/span_test-data-1_status status-edit edit""), 0)",Chrome 90.0.4430.212,,,2021-05-29 20:50:37,2021-05-29 20:51:08,31.255s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:51:08,2021-05-29 20:51:15,6.978s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:51:08,2021-05-29 20:51:10,1.867s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:51:10,2021-05-29 20:51:10,0.470s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:51:10,2021-05-29 20:51:12,1.624s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:51:12,2021-05-29 20:51:13,0.579s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-29 20:51:13,2021-05-29 20:51:13,0.514s,PASSED
+"verifyElementPresent(findTestObject(""Page_Town Square - test-data-1 Mattermost/span_test-data-1_status status-edit edit""), 0)",Chrome 90.0.4430.212,,,2021-05-29 20:51:13,2021-05-29 20:51:14,1.283s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-29 20:51:14,2021-05-29 20:51:15,0.630s,PASSED

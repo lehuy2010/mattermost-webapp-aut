@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CSV_TestSuite,Chrome 90.0.4430.212,,,2021-05-29 20:12:58,2021-05-29 20:13:06,7.979s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:13:00,2021-05-29 20:13:06,6.716s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:13:00,2021-05-29 20:13:03,2.460s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:13:03,2021-05-29 20:13:03,0.578s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:13:03,2021-05-29 20:13:06,2.814s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:13:06,2021-05-29 20:13:06,0.249s,FAILED

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSV_TestCase2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76caa3ff-748b-4966-a645-273694e8ca30</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f65890a9-f4cb-420f-b855-d4ce46a722c1</id>
+      <masked>false</masked>
+      <name>channelName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>045aed7f-5ee0-4f05-83d6-8666474a5a47</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>150a07dc-82bc-4aa4-9a93-6a7b0b2138e7</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>

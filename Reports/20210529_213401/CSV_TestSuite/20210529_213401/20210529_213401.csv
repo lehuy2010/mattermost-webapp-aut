@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CSV_TestSuite,,,,2021-05-29 21:34:18,2021-05-29 21:34:19,1.446s,ERROR
+,,,,,,,
+Test Cases/ChatSuccess,,,,2021-05-29 21:34:19,2021-05-29 21:34:19,0.552s,ERROR
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",,,,2021-05-29 21:34:19,2021-05-29 21:34:19,0.010s,PASSED

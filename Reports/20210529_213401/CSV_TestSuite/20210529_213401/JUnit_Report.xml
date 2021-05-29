@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CSV_TestSuite" time="1.726" tests="1" failures="0" errors="1">
+   <testsuite name="CSV_TestSuite" tests="1" failures="0" errors="1" time="1.726" skipped="0" timestamp="2021-05-29 21:34:18" hostname="ad - DESKTOP-MT3C507.mshome.net" id="Test Suites/CSV_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ad\\git\\mattermost-webapp-aut\\Reports\\20210529_213401\\CSV_TestSuite\\20210529_213401"/>
+         <property name="logFiles" value="C:\\Users\\ad\\git\\mattermost-webapp-aut\\Reports\\20210529_213401\\CSV_TestSuite\\20210529_213401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ad - DESKTOP-MT3C507.mshome.net"/>
+         <property name="hostAddress" value="172.18.240.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+      </properties>
+      <testcase name="Test Cases/ChatSuccess" time="0.552" classname="Test Cases/ChatSuccess" status="ERROR">
+         <error type="ERROR" message="Test Cases/ChatSuccess FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Login'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at ChatSuccess.run(ChatSuccess:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622298841418.run(TempTestSuite1622298841418.groovy:39)
+"/>
+         <system-out><![CDATA[2021-05-29 21:34:19 - [TEST_CASE][ERROR] - Test Cases/ChatSuccess: Test Cases/ChatSuccess FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Login'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at ChatSuccess.run(ChatSuccess:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622298841418.run(TempTestSuite1622298841418.groovy:39)
+
+
+2021-05-29 21:34:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): null]]></system-out>
+         <system-err><![CDATA[2021-05-29 21:34:19 - [TEST_CASE][ERROR] - Test Cases/ChatSuccess: Test Cases/ChatSuccess FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Login'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at ChatSuccess.run(ChatSuccess:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622298841418.run(TempTestSuite1622298841418.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-29 21:34:18 - [TEST_SUITE][ERROR] - CSV_TestSuite: Test Cases/ChatSuccess FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Login'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at ChatSuccess.run(ChatSuccess:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622298841418.run(TempTestSuite1622298841418.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-05-29 21:34:18 - [TEST_SUITE][ERROR] - CSV_TestSuite: Test Cases/ChatSuccess FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Login'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at ChatSuccess.run(ChatSuccess:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622298841418.run(TempTestSuite1622298841418.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

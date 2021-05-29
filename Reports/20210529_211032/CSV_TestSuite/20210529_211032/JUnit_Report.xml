@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CSV_TestSuite" time="65.097" tests="5" failures="0" errors="0">
+   <testsuite name="CSV_TestSuite" tests="5" failures="0" errors="0" time="65.097" skipped="0" timestamp="2021-05-29 21:11:04" hostname="ad - DESKTOP-MT3C507.mshome.net" id="Test Suites/CSV_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ad\\git\\mattermost-webapp-aut\\Reports\\20210529_211032\\CSV_TestSuite\\20210529_211032"/>
+         <property name="logFiles" value="C:\\Users\\ad\\git\\mattermost-webapp-aut\\Reports\\20210529_211032\\CSV_TestSuite\\20210529_211032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ad - DESKTOP-MT3C507.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="172.18.240.1"/>
+         <property name="sessionId" value="0e480d43e25f1599b82eaf29819fd39c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CSV_TestCase2" time="16.338" classname="Test Cases/CSV_TestCase2" status="PASSED">
+         <system-out><![CDATA[2021-05-29 21:11:05 - [TEST_CASE][PASSED] - Test Cases/CSV_TestCase2: Test Cases/CSV_TestCase2
+
+2021-05-29 21:11:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 21:11:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 21:11:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 21:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 21:11:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), "lehuy2010"): Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:11 - [MESSAGE][PASSED] - Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), "Fp6aaTLpEhBjh92TM4bq0w=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName"), channelName): Text 'test_channel_2' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:18 - [MESSAGE][PASSED] - Text 'test_channel_2' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1"), purpose): Text 'for non-related work' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:19 - [MESSAGE][PASSED] - Text 'for non-related work' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel"), header): Text 'header_non_related_work' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:20 - [MESSAGE][PASSED] - Text 'header_non_related_work' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 21:11:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CSV_TestCase2" time="11.57" classname="Test Cases/CSV_TestCase2" status="PASSED">
+         <system-out><![CDATA[2021-05-29 21:11:22 - [TEST_CASE][PASSED] - Test Cases/CSV_TestCase2: Test Cases/CSV_TestCase2
+
+2021-05-29 21:11:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 21:11:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 21:11:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 21:11:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 21:11:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), "lehuy2010"): Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:26 - [MESSAGE][PASSED] - Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), "Fp6aaTLpEhBjh92TM4bq0w=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName"), channelName): Text 'test_channel_3' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:30 - [MESSAGE][PASSED] - Text 'test_channel_3' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1"), purpose): Text 'for testing channel 3' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:31 - [MESSAGE][PASSED] - Text 'for testing channel 3' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel"), header): Text 'header_channel_3' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:32 - [MESSAGE][PASSED] - Text 'header_channel_3' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 21:11:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CSV_TestCase2" time="11.548" classname="Test Cases/CSV_TestCase2" status="PASSED">
+         <system-out><![CDATA[2021-05-29 21:11:33 - [TEST_CASE][PASSED] - Test Cases/CSV_TestCase2: Test Cases/CSV_TestCase2
+
+2021-05-29 21:11:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 21:11:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 21:11:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 21:11:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 21:11:35 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), "lehuy2010"): Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:37 - [MESSAGE][PASSED] - Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), "Fp6aaTLpEhBjh92TM4bq0w=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName"), channelName): Text 'test_channel_4' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:42 - [MESSAGE][PASSED] - Text 'test_channel_4' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1"), purpose): Text 'for testing channel 4' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:43 - [MESSAGE][PASSED] - Text 'for testing channel 4' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel"), header): Text 'header_channel_4' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:44 - [MESSAGE][PASSED] - Text 'header_channel_4' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 21:11:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CSV_TestCase2" time="12.474" classname="Test Cases/CSV_TestCase2" status="PASSED">
+         <system-out><![CDATA[2021-05-29 21:11:45 - [TEST_CASE][PASSED] - Test Cases/CSV_TestCase2: Test Cases/CSV_TestCase2
+
+2021-05-29 21:11:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 21:11:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 21:11:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 21:11:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 21:11:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), "lehuy2010"): Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:49 - [MESSAGE][PASSED] - Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:11:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), "Fp6aaTLpEhBjh92TM4bq0w=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:11:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName"), channelName): Text 'test_channel_5' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:55 - [MESSAGE][PASSED] - Text 'test_channel_5' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:11:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1"), purpose): Text 'for testing channel 5' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:55 - [MESSAGE][PASSED] - Text 'for testing channel 5' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:11:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel"), header): Text 'header_channel_5' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:56 - [MESSAGE][PASSED] - Text 'header_channel_5' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:11:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 21:11:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CSV_TestCase2" time="11.706" classname="Test Cases/CSV_TestCase2" status="PASSED">
+         <system-out><![CDATA[2021-05-29 21:11:57 - [TEST_CASE][PASSED] - Test Cases/CSV_TestCase2: Test Cases/CSV_TestCase2
+
+2021-05-29 21:11:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 21:11:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 21:11:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 21:11:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 21:11:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 21:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), "lehuy2010"): Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:12:01 - [MESSAGE][PASSED] - Text 'lehuy2010' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 21:12:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), "Fp6aaTLpEhBjh92TM4bq0w=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:12:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 21:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 21:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 21:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 21:12:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName"), channelName): Text 'test_channel_6' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:12:06 - [MESSAGE][PASSED] - Text 'test_channel_6' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/input_Name_newChannelName'
+
+2021-05-29 21:12:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1"), purpose): Text 'for testing channel 6' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:12:07 - [MESSAGE][PASSED] - Text 'for testing channel 6' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_for testing purpose_1'
+
+2021-05-29 21:12:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel"), header): Text 'header_channel_6' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:12:08 - [MESSAGE][PASSED] - Text 'header_channel_6' is set on object 'Object Repository/Page_Town Square - test-data-1 Mattermost/textarea_header test_channel'
+
+2021-05-29 21:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - test-data-1 Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 21:12:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 21:12:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-29 21:11:04 - [TEST_SUITE][PASSED] - CSV_TestSuite: Test Cases/CSV_TestCase2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

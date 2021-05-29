@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CSV_TestSuite,Chrome 90.0.4430.212,,,2021-05-29 20:26:54,2021-05-29 20:27:29,35.210s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:26:55,2021-05-29 20:27:06,11.362s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:26:55,2021-05-29 20:27:02,6.561s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:27:02,2021-05-29 20:27:03,0.909s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:27:03,2021-05-29 20:27:06,3.082s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:27:06,2021-05-29 20:27:06,0.269s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:27:06,2021-05-29 20:27:12,5.655s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:27:06,2021-05-29 20:27:08,1.969s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:27:08,2021-05-29 20:27:09,0.476s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:27:09,2021-05-29 20:27:12,2.977s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:27:12,2021-05-29 20:27:12,0.218s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:27:12,2021-05-29 20:27:17,5.439s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:27:12,2021-05-29 20:27:14,1.846s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:27:14,2021-05-29 20:27:14,0.487s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:27:14,2021-05-29 20:27:17,2.863s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:27:17,2021-05-29 20:27:17,0.232s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:27:17,2021-05-29 20:27:23,6.035s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:27:17,2021-05-29 20:27:19,1.869s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:27:19,2021-05-29 20:27:20,0.515s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:27:20,2021-05-29 20:27:23,3.358s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:27:23,2021-05-29 20:27:23,0.278s,FAILED
+,,,,,,,
+Test Cases/CSV-TestCase1,Chrome 90.0.4430.212,,,2021-05-29 20:27:24,2021-05-29 20:27:29,5.492s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-29 20:27:24,2021-05-29 20:27:26,2.400s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-29 20:27:26,2021-05-29 20:27:26,0.515s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), mattermost_id)",Chrome 90.0.4430.212,,,2021-05-29 20:27:26,2021-05-29 20:27:29,2.338s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), mattermost_pwd)",Chrome 90.0.4430.212,,,2021-05-29 20:27:29,2021-05-29 20:27:29,0.224s,FAILED
